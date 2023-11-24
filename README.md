@@ -360,3 +360,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </body>
 </html>
 ```
+
+
+https://github.com/aasnovita114/Lab7web_/assets/116045324/1656a55c-3540-48de-b144-5f33fd5281b9
+
+
+# Sekian,TERIMA KASIH
