@@ -11,8 +11,8 @@
             ?>
             <h2>menggunakan Variabel</h2>
             <?php
-             $nim = "0411500400";
-             $nama = 'Abdullah';
+             $nim = "312210167";
+             $nama = 'Aas Novitasari';
              echo "NIM : " . $nim . "<br>";
              echo "Nama : $nama";
              ?>
