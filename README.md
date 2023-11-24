@@ -107,3 +107,54 @@
 ```
 ![Screenshot 2023-11-24 155542](https://github.com/aasnovita114/Lab7web_/assets/116045324/576e2b9c-677b-4b7d-ba0f-1688bcf42fa8)
 
+8.Kondisi IF
+
+```
+    <?php
+    $nama_hari = date("l");
+    if ($nama_hari == "Sunday") {
+        echo "Minggu";
+    } elseif ($nama_hari == "Monday") {
+        echo "Senin";
+    } else {
+        echo "Selasa";
+    }
+    ?>
+```
+![Screenshot 2023-11-24 160135](https://github.com/aasnovita114/Lab7web_/assets/116045324/7a3350d6-7ce6-4334-aa49-8fb8bbb54fe5)
+
+9.Kondisi Switch
+
+```
+    <?php
+    $nama_hari = date("l");
+    switch ($nama_hari) {
+    case "Sunday":
+        echo "Minggu";
+        break;
+    case "Monday":
+        echo "Senin";
+        break;
+    case "Tuesday":
+        echo "Selasa";
+        break;
+    default:
+        echo "Sabtu";
+    ?>
+```
+![Screenshot 2023-11-24 162436](https://github.com/aasnovita114/Lab7web_/assets/116045324/6df03aa5-e92a-46bc-b754-15eb54eec390)
+
+10. Perulangan for
+
+```
+    <?php
+    echo "Perulangan 1 sampai 10 <br />";
+    for ($i=1; $i<=10; $i++) {
+        echo "Perulangan ke: " . $i . '<br />';
+    }
+    echo "Perulangan Menurun dari 10 ke 1 <br />";
+    for ($i=10; $i>=1; $i--) {
+        echo "Perulangan ke: " . $i . '<br />';
+    }
+    ?>
+```
