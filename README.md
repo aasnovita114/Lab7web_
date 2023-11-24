@@ -49,3 +49,23 @@
    ```
    ![Screenshot 2023-11-24 144434](https://github.com/aasnovita114/Lab7web_/assets/116045324/afe679b8-dfd2-41ca-b1d4-cbd9d16cf578)
 
+4. Variable PHP
+
+```
+    <?php
+    $nim = "312210167";
+    $nama = 'Aas Novitasari';
+    echo "NIM : " . $nim . "<br>";
+    echo "Nama : $nama";
+    ?>
+```
+![Screenshot 2023-11-24 152941](https://github.com/aasnovita114/Lab7web_/assets/116045324/fb070b31-e3ed-4585-a248-45c29e3527dc)
+
+5. Predefine Variable $_GET
+
+```
+    <?php
+    echo 'Selamat Datang ' . $_GET['nama'];
+    ?>
+```
+![Screenshot 2023-11-24 154024](https://github.com/aasnovita114/Lab7web_/assets/116045324/4e7bd6ed-c6c3-4661-9fd6-5643426fc290)
