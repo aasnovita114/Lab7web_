@@ -1,4 +1,4 @@
-# Lab7web_
+# Lab7Web_
 
 <table>
   <tr>
@@ -69,3 +69,41 @@
     ?>
 ```
 ![Screenshot 2023-11-24 154024](https://github.com/aasnovita114/Lab7web_/assets/116045324/4e7bd6ed-c6c3-4661-9fd6-5643426fc290)
+
+6. Membuat Form
+
+```
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>PHP Dasar</title>
+        </head>
+        <body>
+            <h2>Form Input</h2>
+            <form method="post">
+                <label>Nama: </label>
+                <input type="text" name="nama">
+                <input type="submit" value="Kirim">
+            </form>
+            <?php
+            echo 'Selamat Datang ' . $_POST['nama'];
+            ?>
+        </body>
+    </html>
+```
+![Screenshot 2023-11-24 154800](https://github.com/aasnovita114/Lab7web_/assets/116045324/c1b770c7-11e7-4086-89e7-bee06dce658a)
+
+7.Operator
+
+```
+    <?php
+    $gaji = 1000000;
+    $pajak = 0.1;
+    $thp = $gaji - ($gaji*$pajak);
+    echo "Gaji sebelum pajak = Rp. $gaji <br>";
+    echo "Gaji yang dibawa pulang = Rp. $thp";
+    ?>
+```
+![Screenshot 2023-11-24 155542](https://github.com/aasnovita114/Lab7web_/assets/116045324/576e2b9c-677b-4b7d-ba0f-1688bcf42fa8)
+
